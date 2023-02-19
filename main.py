@@ -28,9 +28,11 @@ def find_mismatch(text):
 
 
 def main():
-    text = input()
-    mismatch = find_mismatch(text)
-    print(mismatch)
+    choose = input()
+    if choose[0] == "I":
+        text = input()
+        mismatch = find_mismatch(text)
+        print(mismatch)
 
 
 if __name__ == "__main__":
